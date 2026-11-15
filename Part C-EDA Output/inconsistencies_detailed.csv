@@ -1,0 +1,3 @@
+Column,Issue,Specific Inconsistent Values
+nas_ct,1 unique negative values found,-0.01
+nas_delay,2 unique negative values found,"-1.0, -19.0"
