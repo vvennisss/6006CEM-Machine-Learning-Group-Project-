@@ -1,0 +1,20 @@
+PART E: REGRESSION MODEL EVALUATION
+==================================================
+
+Target variable: arr_delay
+Training records: 299633
+Testing records: 97943
+Number of selected features: 30
+
+Models evaluated:
+- Linear Regression
+- Random Forest
+- Histogram Gradient Boosting
+
+Model Evaluation Results:
+                      Model         MAE          MSE        RMSE       R2
+          Linear Regression 1523.083857 2.929368e+07 5412.363919 0.837161
+              Random Forest 1498.713333 3.205604e+07 5661.804988 0.821805
+Histogram Gradient Boosting 1524.177326 3.844935e+07 6200.754170 0.786266
+
+Best model based on RMSE: Linear Regression
