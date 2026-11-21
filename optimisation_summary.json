@@ -1,0 +1,19 @@
+{
+    "Dataset": "Airline On-Time Statistics and Delay Causes",
+    "Training_records": 299633,
+    "Testing_records": 97943,
+    "Number_of_features": 30,
+    "Tuning_sample_size": 50000,
+    "Cross_validation": "3-Fold KFold",
+    "Scoring_metric": "Negative Root Mean Squared Error",
+    "Models_optimised": [
+        "Random Forest",
+        "Linear Regression",
+        "Histogram Gradient Boosting"
+    ],
+    "Optimisation_methods": {
+        "Random Forest": "RandomizedSearchCV",
+        "Linear Regression": "GridSearchCV",
+        "Histogram Gradient Boosting": "RandomizedSearchCV"
+    }
+}

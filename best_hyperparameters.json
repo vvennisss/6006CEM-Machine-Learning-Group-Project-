@@ -1,0 +1,39 @@
+{
+    "Random Forest": {
+        "best_parameters": {
+            "n_estimators": 350,
+            "min_samples_split": 5,
+            "min_samples_leaf": 4,
+            "max_features": 0.7,
+            "max_depth": 40
+        },
+        "best_cv_rmse": 5053.712009761407,
+        "search_method": "RandomizedSearchCV",
+        "n_iter": 8,
+        "cv_folds": 3
+    },
+    "Linear Regression": {
+        "best_parameters": {
+            "fit_intercept": true,
+            "positive": false
+        },
+        "best_cv_rmse": 4902.558136546569,
+        "search_method": "GridSearchCV",
+        "parameter_combinations": 4,
+        "cv_folds": 3
+    },
+    "Histogram Gradient Boosting": {
+        "best_parameters": {
+            "min_samples_leaf": 20,
+            "max_leaf_nodes": 15,
+            "max_iter": 200,
+            "max_depth": 20,
+            "learning_rate": 0.1,
+            "l2_regularization": 0.1
+        },
+        "best_cv_rmse": 5066.207771827951,
+        "search_method": "RandomizedSearchCV",
+        "n_iter": 8,
+        "cv_folds": 3
+    }
+}
