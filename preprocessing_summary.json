@@ -1,0 +1,41 @@
+{
+    "original_rows": 398233,
+    "original_columns": 21,
+    "exact_duplicates_removed": 0,
+    "duplicate_monthly_key_rows_for_review": 0,
+    "rows_after_cleaning": 397576,
+    "target_variable": "arr_delay",
+    "input_features": [
+        "year",
+        "month_sin",
+        "month_cos",
+        "carrier",
+        "airport",
+        "lag1_arr_delay",
+        "previous_3_periods_avg_delay",
+        "lag1_arr_flights"
+    ],
+    "excluded_same_period_leakage_columns": [
+        "arr_del15",
+        "carrier_ct",
+        "weather_ct",
+        "nas_ct",
+        "security_ct",
+        "late_aircraft_ct",
+        "carrier_delay",
+        "weather_delay",
+        "nas_delay",
+        "security_delay",
+        "late_aircraft_delay",
+        "arr_cancelled",
+        "arr_diverted",
+        "arr_flights"
+    ],
+    "training_records": 299633,
+    "testing_records": 97943,
+    "chronological_split_date": "2020-10-01T00:00:00.000000000",
+    "transformed_training_features": 460,
+    "selected_features": 30,
+    "pca_applied": false,
+    "smote_applied": false
+}
